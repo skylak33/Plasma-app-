@@ -10,5 +10,6 @@ ReactDOM.render(
             <GlobalStyle />
         </SSRProvider>
     </DeviceThemeProvider>,
+    
     document.getElementById('root'),
 );  

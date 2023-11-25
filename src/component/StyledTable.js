@@ -8,6 +8,7 @@ const StyledTable = styled.table`
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Цвет фона для всей таблицы */
 `;
 
 const StyledTableHead = styled.thead`
@@ -15,7 +16,9 @@ const StyledTableHead = styled.thead`
   color: #fff;
 `;
 
-const StyledTableBody = styled.tbody``;
+const StyledTableBody = styled.tbody`
+  background-color: #fff; /* Цвет фона для тела таблицы */
+`;
 
 const StyledTableRow = styled.tr`
   &:nth-child(even) {

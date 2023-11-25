@@ -1,11 +1,10 @@
 // Home.js
 import React from 'react';
-
+import ChatWindow from './ChatWindow';
 const Home = () => {
   return (
     <div>
-      <h2>Домашняя страница</h2>
-      <p>Добро пожаловать на домашнюю страницу!</p>
+      <ChatWindow/>
     </div>
   );
 };

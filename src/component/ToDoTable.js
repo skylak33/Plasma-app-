@@ -1,7 +1,7 @@
 // ToDoTable.js
 import React, { useState } from 'react';
 import styled from 'styled-components';
-
+import { text, background, gradient } from '@salutejs/plasma-tokens';
 const Table = styled.table`
   width: 50%;
   float: left;
