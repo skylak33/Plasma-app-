@@ -11,4 +11,4 @@ ReactDOM.render(
         </SSRProvider>
     </DeviceThemeProvider>,
     document.getElementById('root'),
-);
+);  

@@ -1,12 +1,15 @@
 import React from 'react';
-import { animatedScrollToX, addFocus, withAutoFocus } from '@salutejs/plasma-ui';
-import { Container } from '@salutejs/plasma-ui/components/Grid';
-import { Button } from '@salutejs/plasma-ui';
+import { createGlobalStyle } from 'styled-components';
+import './css/App.css';
+import Header from './component/Header';
+import ToDoTable from './component/ToDoTable';
+
 
 export default function App() {
     return (
-        <Container>
-            <Button>Hello, Plasma!</Button>
-        </Container>
+        <div>
+          <Header/>  
+          <ToDoTable/>
+        </div>
     );
 }

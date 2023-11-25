@@ -11,6 +11,8 @@ const DocumentStyle = createGlobalStyle`
         color: ${text};
         background-color: ${background};
         background-image: ${gradient};
+        max-width: 100%;
+        max-height: 100%;
     }
 `;
 const ThemeStyle = createGlobalStyle(salutejs_sber__dark);
