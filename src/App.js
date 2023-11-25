@@ -1,17 +1,13 @@
+// src/App.js
 import React from 'react';
-
-import Header from './component/Header';
-import ToDoTable from './component/ToDoTable';
-import Home from './component/Home';
-import ChatWindow from './component/ChatWindow';
-
-
-export default function App() {
-    return (
-        <div>
-          <Header/>  
-          <ToDoTable/>
-          <ChatWindow/>
-        </div>
-    );
+import BankEmployeeInterface from './component/BankEmployeeInterface';
+import './css/App.css';
+function App() {
+  return (
+    <div className="App">
+      <BankEmployeeInterface />
+    </div>
+  );
 }
+
+export default App;

@@ -3,12 +3,14 @@ import styled from 'styled-components';
 
 const StyledTable = styled.table`
   width: 100%;
+  max-height: 300px;
   margin-top: 20px;
   border-collapse: collapse;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #fff; /* Цвет фона для всей таблицы */
+  overflow-y: auto;
 `;
 
 const StyledTableHead = styled.thead`
